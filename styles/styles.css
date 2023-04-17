@@ -24,6 +24,13 @@ ul {
     padding: 0;
 }
 
+img.image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -282,7 +289,7 @@ section.video-description > h2, section.video-description > p {
 }
 
 .google-map {
-    flex: 0 0 calc(50% - 10px);
+    flex-basis: calc(50% - 10px);
     box-sizing: border-box;
 }
 
